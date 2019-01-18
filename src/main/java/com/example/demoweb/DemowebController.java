@@ -11,7 +11,7 @@ public class DemowebController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello World.";
+        return "Welcome to Kubernates world.";
     }
 
 }
